@@ -1,0 +1,758 @@
+[
+  {
+    "sample": 1,
+    "parameters": {
+      "pb_emod_gpa": 23.3293607432131,
+      "pb_kra": 2.15348852853599,
+      "pb_ten_mpa": 62.8352490208455,
+      "pb_coh_mpa": 34.2677696713957,
+      "pb_fa_deg": 38.5464051527531
+    },
+    "peak_stress_mpa": 74.91806459562724,
+    "peak_strain_permille": 2.944645392210032,
+    "rows": 31585,
+    "elastic_modulus_gpa": 26.99003865476663,
+    "poisson_ratio": 0.314572697859646,
+    "readouts": {
+      "0.5": {
+        "step": 272690,
+        "stress_fraction": 0.5000085082617246,
+        "elastic_modulus_gpa": 26.99003865476663,
+        "poisson_ratio": 0.314572697859646
+      },
+      "0.25": {
+        "step": 198390,
+        "stress_fraction": 0.25000779171078574,
+        "elastic_modulus_gpa": 27.57098894383806,
+        "poisson_ratio": 0.3469524992620269
+      },
+      "0.4": {
+        "step": 242840,
+        "stress_fraction": 0.39999391947481455,
+        "elastic_modulus_gpa": 27.16271429086796,
+        "poisson_ratio": 0.3221359172131161
+      },
+      "0.6": {
+        "step": 302360,
+        "stress_fraction": 0.6000079304162589,
+        "elastic_modulus_gpa": 26.90287945589976,
+        "poisson_ratio": 0.3092927202053795
+      }
+    },
+    "target_peak_stress_mpa": 70.0,
+    "gpr_peak_stress_mpa": 70.0607797167118,
+    "pfc_target_error_peak_stress_mpa": 0.07025806565181776,
+    "gpr_target_error_peak_stress_mpa": 0.0008682816673115212,
+    "pfc_gpr_gap_peak_stress_mpa": 0.06938978398450624,
+    "target_peak_strain_permille": 2.82,
+    "gpr_peak_strain_permille": 2.82003959637593,
+    "pfc_target_error_peak_strain_permille": 0.04420049369150075,
+    "gpr_target_error_peak_strain_permille": 1.4041268060317541e-05,
+    "pfc_gpr_gap_peak_strain_permille": 0.04418645242344044,
+    "target_elastic_modulus_gpa": 27.0,
+    "gpr_elastic_modulus_gpa": 26.9892209891323,
+    "pfc_target_error_elastic_modulus_gpa": 0.0003689387123470864,
+    "gpr_target_error_elastic_modulus_gpa": 0.0003992226247296605,
+    "pfc_gpr_gap_elastic_modulus_gpa": 3.0283912382574102e-05,
+    "target_poisson_ratio": 0.31,
+    "gpr_poisson_ratio": 0.309751447087414,
+    "pfc_target_error_poisson_ratio": 0.014750638256922516,
+    "gpr_target_error_poisson_ratio": 0.0008017835889871605,
+    "pfc_gpr_gap_poisson_ratio": 0.015552421845909676,
+    "mare": 0.032394534078147026,
+    "maximum_relative_error": 0.07025806565181776
+  },
+  {
+    "sample": 2,
+    "parameters": {
+      "pb_emod_gpa": 52.0240919705634,
+      "pb_kra": 2.86374228996694,
+      "pb_ten_mpa": 36.356006173208804,
+      "pb_coh_mpa": 19.9173088182541,
+      "pb_fa_deg": 62.3849299668845
+    },
+    "peak_stress_mpa": 31.1048777702555,
+    "peak_strain_permille": 0.7648780915908043,
+    "rows": 12566,
+    "elastic_modulus_gpa": 44.49460969540569,
+    "poisson_ratio": 0.415760669452199,
+    "readouts": {
+      "0.5": {
+        "step": 181130,
+        "stress_fraction": 0.5000447152178702,
+        "elastic_modulus_gpa": 44.49460969540569,
+        "poisson_ratio": 0.415760669452199
+      },
+      "0.25": {
+        "step": 152980,
+        "stress_fraction": 0.24997854423274293,
+        "elastic_modulus_gpa": 46.7797370024787,
+        "poisson_ratio": 0.5008745504831946
+      },
+      "0.4": {
+        "step": 169900,
+        "stress_fraction": 0.4000266707122786,
+        "elastic_modulus_gpa": 45.01383037440134,
+        "poisson_ratio": 0.4360519260363334
+      },
+      "0.6": {
+        "step": 192370,
+        "stress_fraction": 0.6000352595321702,
+        "elastic_modulus_gpa": 44.14617262597029,
+        "poisson_ratio": 0.4025491256943142
+      }
+    },
+    "target_peak_stress_mpa": 32.0,
+    "gpr_peak_stress_mpa": 31.9504540900479,
+    "pfc_target_error_peak_stress_mpa": 0.02797256967951567,
+    "gpr_target_error_peak_stress_mpa": 0.0015483096860031687,
+    "pfc_gpr_gap_peak_stress_mpa": 0.0264242599935125,
+    "target_peak_strain_permille": 0.78,
+    "gpr_peak_strain_permille": 0.78005609020348,
+    "pfc_target_error_peak_strain_permille": 0.019387062063071402,
+    "gpr_target_error_peak_strain_permille": 7.19105172820048e-05,
+    "pfc_gpr_gap_peak_strain_permille": 0.01945897258035341,
+    "target_elastic_modulus_gpa": 44.0,
+    "gpr_elastic_modulus_gpa": 44.0870956200738,
+    "pfc_target_error_elastic_modulus_gpa": 0.01124112944103847,
+    "gpr_target_error_elastic_modulus_gpa": 0.0019794459107681014,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.009261683530270369,
+    "target_poisson_ratio": 0.4,
+    "gpr_poisson_ratio": 0.401271288080506,
+    "pfc_target_error_poisson_ratio": 0.039401673630497513,
+    "gpr_target_error_poisson_ratio": 0.0031782202012649308,
+    "pfc_gpr_gap_poisson_ratio": 0.03622345342923258,
+    "mare": 0.024500608703530765,
+    "maximum_relative_error": 0.039401673630497513
+  },
+  {
+    "sample": 3,
+    "parameters": {
+      "pb_emod_gpa": 73.4181065119447,
+      "pb_kra": 1.41760057905056,
+      "pb_ten_mpa": 50.7535787079996,
+      "pb_coh_mpa": 18.5094255615279,
+      "pb_fa_deg": 55.4156091189046
+    },
+    "peak_stress_mpa": 35.88582039926779,
+    "peak_strain_permille": 0.6673542305679468,
+    "rows": 13993,
+    "elastic_modulus_gpa": 57.44072908584936,
+    "poisson_ratio": 0.2674775675518361,
+    "readouts": {
+      "0.5": {
+        "step": 190630,
+        "stress_fraction": 0.4999909612192357,
+        "elastic_modulus_gpa": 57.44072908584936,
+        "poisson_ratio": 0.2674775675518361
+      },
+      "0.25": {
+        "step": 157970,
+        "stress_fraction": 0.25002437630905827,
+        "elastic_modulus_gpa": 60.01037862483443,
+        "poisson_ratio": 0.3471698807907975
+      },
+      "0.4": {
+        "step": 177590,
+        "stress_fraction": 0.40003333390997764,
+        "elastic_modulus_gpa": 58.0385398842533,
+        "poisson_ratio": 0.2864521774916881
+      },
+      "0.6": {
+        "step": 203670,
+        "stress_fraction": 0.5999847117841509,
+        "elastic_modulus_gpa": 57.0522823901857,
+        "poisson_ratio": 0.2548850122855089
+      }
+    },
+    "target_peak_stress_mpa": 35.0,
+    "gpr_peak_stress_mpa": 34.9846143135146,
+    "pfc_target_error_peak_stress_mpa": 0.025309154264794083,
+    "gpr_target_error_peak_stress_mpa": 0.00043959104244005887,
+    "pfc_gpr_gap_peak_stress_mpa": 0.02574874530723414,
+    "target_peak_strain_permille": 0.65,
+    "gpr_peak_strain_permille": 0.650479492869333,
+    "pfc_target_error_peak_strain_permille": 0.02669881625837973,
+    "gpr_target_error_peak_strain_permille": 0.0007376813374354158,
+    "pfc_gpr_gap_peak_strain_permille": 0.025961134920944318,
+    "target_elastic_modulus_gpa": 56.0,
+    "gpr_elastic_modulus_gpa": 55.9842634111964,
+    "pfc_target_error_elastic_modulus_gpa": 0.0257273051044529,
+    "gpr_target_error_elastic_modulus_gpa": 0.00028101051434996957,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.02600831561880287,
+    "target_poisson_ratio": 0.25,
+    "gpr_poisson_ratio": 0.249965204009806,
+    "pfc_target_error_poisson_ratio": 0.06991027020734442,
+    "gpr_target_error_poisson_ratio": 0.00013918396077594597,
+    "pfc_gpr_gap_poisson_ratio": 0.07004945416812036,
+    "mare": 0.036911386458742784,
+    "maximum_relative_error": 0.06991027020734442
+  },
+  {
+    "sample": 4,
+    "parameters": {
+      "pb_emod_gpa": 37.7804139648573,
+      "pb_kra": 1.96737260922155,
+      "pb_ten_mpa": 19.4886821563754,
+      "pb_coh_mpa": 29.624886417235402,
+      "pb_fa_deg": 47.5033351966584
+    },
+    "peak_stress_mpa": 38.75743847393652,
+    "peak_strain_permille": 1.078954850332969,
+    "rows": 15233,
+    "elastic_modulus_gpa": 38.12397352862867,
+    "poisson_ratio": 0.3301621937807875,
+    "readouts": {
+      "0.5": {
+        "step": 195710,
+        "stress_fraction": 0.49997532819810625,
+        "elastic_modulus_gpa": 38.12397352862867,
+        "poisson_ratio": 0.3301621937807875
+      },
+      "0.25": {
+        "step": 159750,
+        "stress_fraction": 0.24997648985296092,
+        "elastic_modulus_gpa": 40.23228986718394,
+        "poisson_ratio": 0.3968640237560971
+      },
+      "0.4": {
+        "step": 181340,
+        "stress_fraction": 0.40002708871028947,
+        "elastic_modulus_gpa": 38.62506900776238,
+        "poisson_ratio": 0.3487547338577847
+      },
+      "0.6": {
+        "step": 209930,
+        "stress_fraction": 0.60002324182356,
+        "elastic_modulus_gpa": 37.87189281662526,
+        "poisson_ratio": 0.3186608564563538
+      }
+    },
+    "target_peak_stress_mpa": 35.0,
+    "gpr_peak_stress_mpa": 34.9724062836893,
+    "pfc_target_error_peak_stress_mpa": 0.10735538496961478,
+    "gpr_target_error_peak_stress_mpa": 0.0007883918945913544,
+    "pfc_gpr_gap_peak_stress_mpa": 0.10814377686420613,
+    "target_peak_strain_permille": 0.99,
+    "gpr_peak_strain_permille": 0.989812354684717,
+    "pfc_target_error_peak_strain_permille": 0.08985338417471607,
+    "gpr_target_error_peak_strain_permille": 0.00018954072250811714,
+    "pfc_gpr_gap_peak_strain_permille": 0.09004292489722418,
+    "target_elastic_modulus_gpa": 38.0,
+    "gpr_elastic_modulus_gpa": 37.921382823123,
+    "pfc_target_error_elastic_modulus_gpa": 0.0032624612797017734,
+    "gpr_target_error_elastic_modulus_gpa": 0.0020688730757106107,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.0053313343554123845,
+    "target_poisson_ratio": 0.32,
+    "gpr_poisson_ratio": 0.319714086582898,
+    "pfc_target_error_poisson_ratio": 0.03175685556496086,
+    "gpr_target_error_poisson_ratio": 0.0008934794284437206,
+    "pfc_gpr_gap_poisson_ratio": 0.032650334993404584,
+    "mare": 0.05805702149724837,
+    "maximum_relative_error": 0.10735538496961478
+  },
+  {
+    "sample": 5,
+    "parameters": {
+      "pb_emod_gpa": 42.0559833888882,
+      "pb_kra": 2.88252462321714,
+      "pb_ten_mpa": 61.95476106579169,
+      "pb_coh_mpa": 27.927262745858698,
+      "pb_fa_deg": 64.9947280691756
+    },
+    "peak_stress_mpa": 45.39762572587841,
+    "peak_strain_permille": 1.293525738542236,
+    "rows": 26863,
+    "elastic_modulus_gpa": 38.67359341775153,
+    "poisson_ratio": 0.3918876782673915,
+    "readouts": {
+      "0.5": {
+        "step": 208370,
+        "stress_fraction": 0.49997868239193277,
+        "elastic_modulus_gpa": 38.67359341775153,
+        "poisson_ratio": 0.3918876782673915
+      },
+      "0.25": {
+        "step": 166640,
+        "stress_fraction": 0.2500257912304072,
+        "elastic_modulus_gpa": 39.90004823693074,
+        "poisson_ratio": 0.4471130597576637
+      },
+      "0.4": {
+        "step": 191680,
+        "stress_fraction": 0.40002513794751154,
+        "elastic_modulus_gpa": 38.97473959608798,
+        "poisson_ratio": 0.4052554279421977
+      },
+      "0.6": {
+        "step": 225250,
+        "stress_fraction": 0.6000135443195524,
+        "elastic_modulus_gpa": 38.40574240018204,
+        "poisson_ratio": 0.3857899130891168
+      }
+    },
+    "target_peak_stress_mpa": 45.0,
+    "gpr_peak_stress_mpa": 45.0004932159722,
+    "pfc_target_error_peak_stress_mpa": 0.008836127241742512,
+    "gpr_target_error_peak_stress_mpa": 1.0960354937752627e-05,
+    "pfc_gpr_gap_peak_stress_mpa": 0.00882516688680476,
+    "target_peak_strain_permille": 1.29,
+    "gpr_peak_strain_permille": 1.28994887843103,
+    "pfc_target_error_peak_strain_permille": 0.0027331306528961506,
+    "gpr_target_error_peak_strain_permille": 3.962912323257757e-05,
+    "pfc_gpr_gap_peak_strain_permille": 0.002772759776128728,
+    "target_elastic_modulus_gpa": 39.0,
+    "gpr_elastic_modulus_gpa": 38.9969604219512,
+    "pfc_target_error_elastic_modulus_gpa": 0.00836939954483248,
+    "gpr_target_error_elastic_modulus_gpa": 7.793789868716116e-05,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.00829146164614532,
+    "target_poisson_ratio": 0.39,
+    "gpr_poisson_ratio": 0.390144083967038,
+    "pfc_target_error_poisson_ratio": 0.004840200685619234,
+    "gpr_target_error_poisson_ratio": 0.0003694460693281199,
+    "pfc_gpr_gap_poisson_ratio": 0.004470754616291115,
+    "mare": 0.006194714531272594,
+    "maximum_relative_error": 0.008836127241742512
+  },
+  {
+    "sample": 6,
+    "parameters": {
+      "pb_emod_gpa": 71.0114715062338,
+      "pb_kra": 1.78030173460698,
+      "pb_ten_mpa": 43.1210576328573,
+      "pb_coh_mpa": 19.7217992773488,
+      "pb_fa_deg": 22.1591898819168
+    },
+    "peak_stress_mpa": 39.3164717200647,
+    "peak_strain_permille": 0.8757261553587744,
+    "rows": 18089,
+    "elastic_modulus_gpa": 55.00653914066486,
+    "poisson_ratio": 0.3066990754898235,
+    "readouts": {
+      "0.5": {
+        "step": 194190,
+        "stress_fraction": 0.49998172029807897,
+        "elastic_modulus_gpa": 55.00653914066486,
+        "poisson_ratio": 0.3066990754898235
+      },
+      "0.25": {
+        "step": 159740,
+        "stress_fraction": 0.250017160586529,
+        "elastic_modulus_gpa": 57.11314937536153,
+        "poisson_ratio": 0.3764687552336842
+      },
+      "0.4": {
+        "step": 180420,
+        "stress_fraction": 0.39996999047580745,
+        "elastic_modulus_gpa": 55.50446164493118,
+        "poisson_ratio": 0.3234778447794806
+      },
+      "0.6": {
+        "step": 208260,
+        "stress_fraction": 0.6000218059651219,
+        "elastic_modulus_gpa": 54.47835260281474,
+        "poisson_ratio": 0.2965708641338919
+      }
+    },
+    "target_peak_stress_mpa": 39.0,
+    "gpr_peak_stress_mpa": 38.9351312928445,
+    "pfc_target_error_peak_stress_mpa": 0.0081146594888384,
+    "gpr_target_error_peak_stress_mpa": 0.0016633001834742928,
+    "pfc_gpr_gap_peak_stress_mpa": 0.009777959672312693,
+    "target_peak_strain_permille": 0.84,
+    "gpr_peak_strain_permille": 0.826622025561179,
+    "pfc_target_error_peak_strain_permille": 0.04253113733187433,
+    "gpr_target_error_peak_strain_permille": 0.015926160046215405,
+    "pfc_gpr_gap_peak_strain_permille": 0.05845729737808973,
+    "target_elastic_modulus_gpa": 53.0,
+    "gpr_elastic_modulus_gpa": 52.0218128237214,
+    "pfc_target_error_elastic_modulus_gpa": 0.037859229069148355,
+    "gpr_target_error_elastic_modulus_gpa": 0.018456361816577407,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.05631559088572576,
+    "target_poisson_ratio": 0.31,
+    "gpr_poisson_ratio": 0.309529287791456,
+    "pfc_target_error_poisson_ratio": 0.0106481435812145,
+    "gpr_target_error_poisson_ratio": 0.0015184264791741923,
+    "pfc_gpr_gap_poisson_ratio": 0.009129717102040307,
+    "mare": 0.024788292367768895,
+    "maximum_relative_error": 0.04253113733187433
+  },
+  {
+    "sample": 7,
+    "parameters": {
+      "pb_emod_gpa": 39.9410887727701,
+      "pb_kra": 1.80956576273574,
+      "pb_ten_mpa": 69.7414802905483,
+      "pb_coh_mpa": 24.3924759808373,
+      "pb_fa_deg": 29.4388957409055
+    },
+    "peak_stress_mpa": 50.50833165888026,
+    "peak_strain_permille": 1.4516946706265719,
+    "rows": 20740,
+    "elastic_modulus_gpa": 40.18592278547023,
+    "poisson_ratio": 0.2952657039130249,
+    "readouts": {
+      "0.5": {
+        "step": 214930,
+        "stress_fraction": 0.500012260521692,
+        "elastic_modulus_gpa": 40.18592278547023,
+        "poisson_ratio": 0.2952657039130249
+      },
+      "0.25": {
+        "step": 169910,
+        "stress_fraction": 0.2500212239539244,
+        "elastic_modulus_gpa": 41.38354722336569,
+        "poisson_ratio": 0.3472872794155165
+      },
+      "0.4": {
+        "step": 196920,
+        "stress_fraction": 0.4000078839061386,
+        "elastic_modulus_gpa": 40.47926737603861,
+        "poisson_ratio": 0.3078866430124795
+      },
+      "0.6": {
+        "step": 232960,
+        "stress_fraction": 0.5999850794045375,
+        "elastic_modulus_gpa": 39.9829331306555,
+        "poisson_ratio": 0.2870665458645978
+      }
+    },
+    "target_peak_stress_mpa": 51.0,
+    "gpr_peak_stress_mpa": 51.0795641450537,
+    "pfc_target_error_peak_stress_mpa": 0.009640555708230218,
+    "gpr_target_error_peak_stress_mpa": 0.0015600812755627825,
+    "pfc_gpr_gap_peak_stress_mpa": 0.011200636983793,
+    "target_peak_strain_permille": 1.46678598928221,
+    "gpr_peak_strain_permille": 1.46732041320546,
+    "pfc_target_error_peak_strain_permille": 0.01028869839629651,
+    "gpr_target_error_peak_strain_permille": 0.0003643503054672758,
+    "pfc_gpr_gap_peak_strain_permille": 0.010653048701763786,
+    "target_elastic_modulus_gpa": 40.0,
+    "gpr_elastic_modulus_gpa": 40.0377408428534,
+    "pfc_target_error_elastic_modulus_gpa": 0.004648069636755814,
+    "gpr_target_error_elastic_modulus_gpa": 0.0009435210713350628,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.0037045485654207512,
+    "target_poisson_ratio": 0.29,
+    "gpr_poisson_ratio": 0.289993287641686,
+    "pfc_target_error_poisson_ratio": 0.018157599700086013,
+    "gpr_target_error_poisson_ratio": 2.314606315156515e-05,
+    "pfc_gpr_gap_poisson_ratio": 0.01818074576323758,
+    "mare": 0.010683730860342138,
+    "maximum_relative_error": 0.018157599700086013
+  },
+  {
+    "sample": 8,
+    "parameters": {
+      "pb_emod_gpa": 24.0033762630142,
+      "pb_kra": 2.08205408561782,
+      "pb_ten_mpa": 68.5930988959702,
+      "pb_coh_mpa": 25.8480440647555,
+      "pb_fa_deg": 26.3336275572421
+    },
+    "peak_stress_mpa": 54.55926910378778,
+    "peak_strain_permille": 2.2147191876857257,
+    "rows": 24649,
+    "elastic_modulus_gpa": 27.96943192484966,
+    "poisson_ratio": 0.3194600241883799,
+    "readouts": {
+      "0.5": {
+        "step": 231170,
+        "stress_fraction": 0.49998851671330885,
+        "elastic_modulus_gpa": 27.96943192484966,
+        "poisson_ratio": 0.3194600241883799
+      },
+      "0.25": {
+        "step": 177750,
+        "stress_fraction": 0.25001934958758093,
+        "elastic_modulus_gpa": 28.75101556178627,
+        "poisson_ratio": 0.3661209265468458
+      },
+      "0.4": {
+        "step": 209800,
+        "stress_fraction": 0.3999968333369796,
+        "elastic_modulus_gpa": 28.16139266042565,
+        "poisson_ratio": 0.330817279813177
+      },
+      "0.6": {
+        "step": 252580,
+        "stress_fraction": 0.5999939459199457,
+        "elastic_modulus_gpa": 27.83451897455453,
+        "poisson_ratio": 0.3121777167122392
+      }
+    },
+    "target_peak_stress_mpa": 54.3502301910047,
+    "gpr_peak_stress_mpa": 54.3692880200336,
+    "pfc_target_error_peak_stress_mpa": 0.0038461458589677915,
+    "gpr_target_error_peak_stress_mpa": 0.0003506485430131022,
+    "pfc_gpr_gap_peak_stress_mpa": 0.0034954973159546892,
+    "target_peak_strain_permille": 2.2451284120291,
+    "gpr_peak_strain_permille": 2.24533037585964,
+    "pfc_target_error_peak_strain_permille": 0.013544536775912525,
+    "gpr_target_error_peak_strain_permille": 8.995647173580202e-05,
+    "pfc_gpr_gap_peak_strain_permille": 0.013634493247648326,
+    "target_elastic_modulus_gpa": 28.0,
+    "gpr_elastic_modulus_gpa": 27.9992172143723,
+    "pfc_target_error_elastic_modulus_gpa": 0.001091716969655059,
+    "gpr_target_error_elastic_modulus_gpa": 2.7956629560677015e-05,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.001063760340094382,
+    "target_poisson_ratio": 0.31,
+    "gpr_poisson_ratio": 0.309995184726671,
+    "pfc_target_error_poisson_ratio": 0.03051620705928993,
+    "gpr_target_error_poisson_ratio": 1.5533139771023977e-05,
+    "pfc_gpr_gap_poisson_ratio": 0.030531740199060953,
+    "mare": 0.012249651665956327,
+    "maximum_relative_error": 0.03051620705928993
+  },
+  {
+    "sample": 9,
+    "parameters": {
+      "pb_emod_gpa": 28.2807646849184,
+      "pb_kra": 2.92026908778701,
+      "pb_ten_mpa": 34.061227665922594,
+      "pb_coh_mpa": 28.102255955320203,
+      "pb_fa_deg": 56.3930160375176
+    },
+    "peak_stress_mpa": 45.01978161033662,
+    "peak_strain_permille": 1.5829993497820771,
+    "rows": 18754,
+    "elastic_modulus_gpa": 29.65958659002242,
+    "poisson_ratio": 0.3949941866076628,
+    "readouts": {
+      "0.5": {
+        "step": 213010,
+        "stress_fraction": 0.5000227079416628,
+        "elastic_modulus_gpa": 29.65958659002242,
+        "poisson_ratio": 0.3949941866076628
+      },
+      "0.25": {
+        "step": 168690,
+        "stress_fraction": 0.24997641894471737,
+        "elastic_modulus_gpa": 30.66829791152805,
+        "poisson_ratio": 0.4500445181708523
+      },
+      "0.4": {
+        "step": 195190,
+        "stress_fraction": 0.39998944426534955,
+        "elastic_modulus_gpa": 29.94499759319637,
+        "poisson_ratio": 0.4079308672925364
+      },
+      "0.6": {
+        "step": 230760,
+        "stress_fraction": 0.6000099007284398,
+        "elastic_modulus_gpa": 29.48985557122939,
+        "poisson_ratio": 0.3862925599805187
+      }
+    },
+    "target_peak_stress_mpa": 45.0,
+    "gpr_peak_stress_mpa": 44.9810367235801,
+    "pfc_target_error_peak_stress_mpa": 0.0004395913408138262,
+    "gpr_target_error_peak_stress_mpa": 0.00042140614266451674,
+    "pfc_gpr_gap_peak_stress_mpa": 0.0008609974834783429,
+    "target_peak_strain_permille": 1.61,
+    "gpr_peak_strain_permille": 1.615092786856,
+    "pfc_target_error_peak_strain_permille": 0.016770590197467683,
+    "gpr_target_error_peak_strain_permille": 0.0031632216496894463,
+    "pfc_gpr_gap_peak_strain_permille": 0.01993381184715713,
+    "target_elastic_modulus_gpa": 29.0,
+    "gpr_elastic_modulus_gpa": 29.4940990644326,
+    "pfc_target_error_elastic_modulus_gpa": 0.022744365173186936,
+    "gpr_target_error_elastic_modulus_gpa": 0.01703789877353793,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.005706466399649005,
+    "target_poisson_ratio": 0.38,
+    "gpr_poisson_ratio": 0.381363444004655,
+    "pfc_target_error_poisson_ratio": 0.039458385809638875,
+    "gpr_target_error_poisson_ratio": 0.003588010538565763,
+    "pfc_gpr_gap_poisson_ratio": 0.03587037527107312,
+    "mare": 0.01985323313027683,
+    "maximum_relative_error": 0.039458385809638875
+  },
+  {
+    "sample": 10,
+    "parameters": {
+      "pb_emod_gpa": 40.68239879693,
+      "pb_kra": 1.0010837797286,
+      "pb_ten_mpa": 15.5246983782045,
+      "pb_coh_mpa": 26.3898591385594,
+      "pb_fa_deg": 53.9709094128383
+    },
+    "peak_stress_mpa": 33.73420081967249,
+    "peak_strain_permille": 0.807169930619028,
+    "rows": 15097,
+    "elastic_modulus_gpa": 44.15294603200279,
+    "poisson_ratio": 0.2057109361534299,
+    "readouts": {
+      "0.5": {
+        "step": 195820,
+        "stress_fraction": 0.500017571621875,
+        "elastic_modulus_gpa": 44.15294603200279,
+        "poisson_ratio": 0.2057109361534299
+      },
+      "0.25": {
+        "step": 159720,
+        "stress_fraction": 0.2500196229142302,
+        "elastic_modulus_gpa": 47.16773411391105,
+        "poisson_ratio": 0.2923308994970992
+      },
+      "0.4": {
+        "step": 181490,
+        "stress_fraction": 0.4000055958776645,
+        "elastic_modulus_gpa": 44.77643326100305,
+        "poisson_ratio": 0.2281451240210045
+      },
+      "0.6": {
+        "step": 210100,
+        "stress_fraction": 0.5999863720556432,
+        "elastic_modulus_gpa": 43.77024065324146,
+        "poisson_ratio": 0.1918163420831692
+      }
+    },
+    "target_peak_stress_mpa": 33.0,
+    "gpr_peak_stress_mpa": 32.9033785885638,
+    "pfc_target_error_peak_stress_mpa": 0.02224850968704508,
+    "gpr_target_error_peak_stress_mpa": 0.0029279215586728233,
+    "pfc_gpr_gap_peak_stress_mpa": 0.025176431245717903,
+    "target_peak_strain_permille": 0.78,
+    "gpr_peak_strain_permille": 0.779742441876461,
+    "pfc_target_error_peak_strain_permille": 0.03483324438336916,
+    "gpr_target_error_peak_strain_permille": 0.0003302027224859018,
+    "pfc_gpr_gap_peak_strain_permille": 0.03516344710585507,
+    "target_elastic_modulus_gpa": 43.0,
+    "gpr_elastic_modulus_gpa": 42.9926395867689,
+    "pfc_target_error_elastic_modulus_gpa": 0.026812698418669487,
+    "gpr_target_error_elastic_modulus_gpa": 0.0001711724007231999,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.02698387081939269,
+    "target_poisson_ratio": 0.18,
+    "gpr_poisson_ratio": 0.179510277059684,
+    "pfc_target_error_poisson_ratio": 0.14283853418572165,
+    "gpr_target_error_poisson_ratio": 0.0027206830017554987,
+    "pfc_gpr_gap_poisson_ratio": 0.14555921718747716,
+    "mare": 0.056683246668701344,
+    "maximum_relative_error": 0.14283853418572165
+  },
+  {
+    "sample": 11,
+    "parameters": {
+      "pb_emod_gpa": 18.3261202942967,
+      "pb_kra": 1.69187606219324,
+      "pb_ten_mpa": 58.874062382864,
+      "pb_coh_mpa": 19.747749710415402,
+      "pb_fa_deg": 29.1474054651151
+    },
+    "peak_stress_mpa": 45.06876227689926,
+    "peak_strain_permille": 2.1407821179696143,
+    "rows": 21500,
+    "elastic_modulus_gpa": 23.94709424125177,
+    "poisson_ratio": 0.2872477409817051,
+    "readouts": {
+      "0.5": {
+        "step": 216420,
+        "stress_fraction": 0.4999999748023065,
+        "elastic_modulus_gpa": 23.94709424125177,
+        "poisson_ratio": 0.2872477409817051
+      },
+      "0.25": {
+        "step": 170220,
+        "stress_fraction": 0.25001241046963546,
+        "elastic_modulus_gpa": 24.80555655125389,
+        "poisson_ratio": 0.346349105177385
+      },
+      "0.4": {
+        "step": 197940,
+        "stress_fraction": 0.4000117529873042,
+        "elastic_modulus_gpa": 24.15663049116561,
+        "poisson_ratio": 0.3015033757518339
+      },
+      "0.6": {
+        "step": 234940,
+        "stress_fraction": 0.5999958781536646,
+        "elastic_modulus_gpa": 23.80077267166648,
+        "poisson_ratio": 0.2779768883474139
+      }
+    },
+    "target_peak_stress_mpa": 42.0,
+    "gpr_peak_stress_mpa": 41.9367303115742,
+    "pfc_target_error_peak_stress_mpa": 0.07306576849760135,
+    "gpr_target_error_peak_stress_mpa": 0.0015064211529951944,
+    "pfc_gpr_gap_peak_stress_mpa": 0.07457218965059655,
+    "target_peak_strain_permille": 2.0,
+    "gpr_peak_strain_permille": 1.99172229678474,
+    "pfc_target_error_peak_strain_permille": 0.07039105898480713,
+    "gpr_target_error_peak_strain_permille": 0.004138851607629945,
+    "pfc_gpr_gap_peak_strain_permille": 0.07452991059243708,
+    "target_elastic_modulus_gpa": 24.0,
+    "gpr_elastic_modulus_gpa": 23.9682614949404,
+    "pfc_target_error_elastic_modulus_gpa": 0.002204406614509639,
+    "gpr_target_error_elastic_modulus_gpa": 0.0013224377108166745,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.0008819689036929645,
+    "target_poisson_ratio": 0.28,
+    "gpr_poisson_ratio": 0.28061266747389,
+    "pfc_target_error_poisson_ratio": 0.02588478922037519,
+    "gpr_target_error_poisson_ratio": 0.0021880981210356926,
+    "pfc_gpr_gap_poisson_ratio": 0.023696691099339494,
+    "mare": 0.04288650582932333,
+    "maximum_relative_error": 0.07306576849760135
+  },
+  {
+    "sample": 12,
+    "parameters": {
+      "pb_emod_gpa": 17.600786356324402,
+      "pb_kra": 1.30690549435849,
+      "pb_ten_mpa": 24.268770817407002,
+      "pb_coh_mpa": 18.199846486490397,
+      "pb_fa_deg": 63.9929467813306
+    },
+    "peak_stress_mpa": 28.04617454430174,
+    "peak_strain_permille": 1.196661234564761,
+    "rows": 13006,
+    "elastic_modulus_gpa": 24.91320034958036,
+    "poisson_ratio": 0.2711829864459931,
+    "readouts": {
+      "0.5": {
+        "step": 184770,
+        "stress_fraction": 0.5000361023518053,
+        "elastic_modulus_gpa": 24.91320034958036,
+        "poisson_ratio": 0.2711829864459931
+      },
+      "0.25": {
+        "step": 154200,
+        "stress_fraction": 0.2499908960007819,
+        "elastic_modulus_gpa": 26.56073848612447,
+        "poisson_ratio": 0.3784981740874344
+      },
+      "0.4": {
+        "step": 172560,
+        "stress_fraction": 0.40000616865714006,
+        "elastic_modulus_gpa": 25.29491698341657,
+        "poisson_ratio": 0.2963786136507428
+      },
+      "0.6": {
+        "step": 196960,
+        "stress_fraction": 0.6000207433032662,
+        "elastic_modulus_gpa": 24.67019086960691,
+        "poisson_ratio": 0.2549646151939362
+      }
+    },
+    "target_peak_stress_mpa": 28.0,
+    "gpr_peak_stress_mpa": 27.949793215908,
+    "pfc_target_error_peak_stress_mpa": 0.0016490908679192323,
+    "gpr_target_error_peak_stress_mpa": 0.0017930994318571894,
+    "pfc_gpr_gap_peak_stress_mpa": 0.0034421902997764215,
+    "target_peak_strain_permille": 1.22,
+    "gpr_peak_strain_permille": 1.22823696445827,
+    "pfc_target_error_peak_strain_permille": 0.01913013560265496,
+    "gpr_target_error_peak_strain_permille": 0.006751610211696759,
+    "pfc_gpr_gap_peak_strain_permille": 0.02588174581435172,
+    "target_elastic_modulus_gpa": 24.0,
+    "gpr_elastic_modulus_gpa": 24.1758209526701,
+    "pfc_target_error_elastic_modulus_gpa": 0.03805001456584837,
+    "gpr_target_error_elastic_modulus_gpa": 0.007325873027920871,
+    "pfc_gpr_gap_elastic_modulus_gpa": 0.0307241415379275,
+    "target_poisson_ratio": 0.24,
+    "gpr_poisson_ratio": 0.240842930049025,
+    "pfc_target_error_poisson_ratio": 0.12992911019163791,
+    "gpr_target_error_poisson_ratio": 0.0035122085376041584,
+    "pfc_gpr_gap_poisson_ratio": 0.12641690165403377,
+    "mare": 0.04718958780701512,
+    "maximum_relative_error": 0.12992911019163791
+  }
+]

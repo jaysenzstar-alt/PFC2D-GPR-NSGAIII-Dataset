@@ -1,0 +1,21 @@
+{
+  "analysis_version": "R3-publication",
+  "population_files": 120,
+  "population_rows": 7107,
+  "retained_unique_delta005": 2198,
+  "component_maxima_delta005": {
+    "err_peak_stress": 0.0378663505233596,
+    "err_peak_strain": 0.0485033995042883,
+    "err_elastic_modulus": 0.0432523444572469,
+    "err_poisson_ratio": 0.0219377826369276
+  },
+  "archived_inverse_rows": 100,
+  "archived_learning_curve_rows": 120,
+  "PFC_simulations_run": 0,
+  "MATLAB_fits_run": 0,
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.7",
+  "scope": "Stored-population reanalysis and archived-run aggregation; direct simulations are analysed separately in direct_validation."
+}

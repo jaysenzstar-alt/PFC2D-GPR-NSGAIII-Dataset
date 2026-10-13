@@ -1,0 +1,5 @@
+response,selected_kernel,mean_validation_nrmse,std_validation_nrmse,candidate_kernel_count
+peak_stress_mpa,ardmatern32,0.0221287118465691,0.000628288480579466,10
+peak_strain_permille,ardmatern52,0.0153950377739651,0.000851704203238971,10
+elastic_modulus_gpa,ardmatern52,0.0274768500735801,0.00432817864685391,10
+poisson_ratio,ardmatern32,0.0204142759107156,0.00238818815009042,10

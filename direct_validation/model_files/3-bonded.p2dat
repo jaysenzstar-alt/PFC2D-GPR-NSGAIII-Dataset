@@ -1,0 +1,34 @@
+;rest 'yuya'
+
+contact model linearpbond range contact type ball-ball
+contact method bond gap 0.35e-4
+
+; set linear stiffness
+contact method deform emod [emod] krat [krat] range contact type ball-ball
+; set stiffness of bond material
+contact method pb_deform emod [emod] krat [krat] range contact type ball-ball
+
+; set bond strengths
+contact property pb_ten [ten] pb_coh [coh] pb_fa [fa] range contact type ball-ball
+
+; set some damping at the contacts
+contact property dp_nratio 0.5 
+
+; set ball-ball friction to non-zero value
+contact property fric 0.5 range contact type ball-ball
+
+; Reset ball displacement 
+ball attribute displacement multiply 0.0
+
+; Set the linear force to 0.0 and force a reset of the linear contact forces. 
+contact property lin_force 0.0 0.0 lin_mode 1
+ball attribute contactforce multiply 0.0 contactmoment multiply 0.0 
+cycle 1
+solve aratio 1e-5
+wall delete walls range id 3
+wall delete walls range id 4
+set fish callback 1.0 remove @servo_walls
+;save parallel_bonded
+
+;==============================================================================
+; eof: parallel_bonded.p2dat

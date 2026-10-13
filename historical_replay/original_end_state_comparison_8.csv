@@ -1,0 +1,9 @@
+sample,original_end_state,peak_stress_MPa_absolute_difference,peak_strain_permille_absolute_difference,E50_GPa_diagnostic_absolute_difference,nu50_diagnostic_absolute_difference
+4,ucs_result_g5.p2sav,0.0,0.0,0.0,0.0
+9,ucs_result_g6.p2sav,0.0,0.0,0.0,0.0
+10,ucs_result_g7.p2sav,0.0,0.0,0.0,0.0
+5,ucs_result_g8.p2sav,0.0,0.0,0.0,0.0
+11,ucs_result_g9.p2sav,0.0,0.0,0.0,0.0
+6,ucs_result_g10.p2sav,0.0,0.0,0.0,0.0
+7,ucs_result_g11.p2sav,0.0,0.0,0.0,0.0
+8,ucs_result_g12.p2sav,0.0,0.0,0.0,0.0

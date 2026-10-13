@@ -1,0 +1,39 @@
+new
+set logfile restore.log
+set log on
+load fish './fishuser_function005_64.dll'
+restore g_1.p2sav
+set logfile restore.log
+set log on
+set precision 15
+set processors 24
+[replay_ball_count=ball.num]
+list @replay_ball_count
+list @wlx
+list @wly
+[emod=39941088772.770103]
+[krat=1.80956576273574]
+[ten=69741480.290548295]
+[coh=24392475.9808373]
+[fa=29.438895740905501]
+call 3-bonded.p2dat
+list @emod
+list @krat
+list @ten
+list @coh
+list @fa
+[mstrain_xx=0]
+[mstrain_yy=0]
+[peak_stress=0]
+history id 21 @mstrain_yy
+history id 22 @mstrain_xx
+call 44-ucs.p2dat
+set logfile restore.log
+set log on
+set precision 15
+history write 11 12 13 14 21 22 15 file history.his csv
+save recovered.p2sav
+[scope_done=1]
+list @scope_done
+set log off
+quit

@@ -1,0 +1,361 @@
+archive_version,path,scope,table_reference,bytes
+R3-CODE-20261013,.gitattributes,Repository configuration,Not applicable,8
+R3-CODE-20261013,.gitignore,Repository configuration,Not applicable,198
+R3-CODE-20261013,ANALYSIS_VERSION_MAP_CURRENT.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,5652
+R3-CODE-20261013,direct_validation/drivers/current_01.p2dat,new current-vector direct check,Table 9; Tables S16-S19,770
+R3-CODE-20261013,direct_validation/drivers/current_02.p2dat,new current-vector direct check,Table 9; Tables S16-S19,768
+R3-CODE-20261013,direct_validation/drivers/current_03.p2dat,new current-vector direct check,Table 9; Tables S16-S19,770
+R3-CODE-20261013,direct_validation/drivers/current_04.p2dat,new current-vector direct check,Table 9; Tables S16-S19,768
+R3-CODE-20261013,direct_validation/drivers/current_05.p2dat,new current-vector direct check,Table 9; Tables S16-S19,772
+R3-CODE-20261013,direct_validation/drivers/current_06.p2dat,new current-vector direct check,Table 9; Tables S16-S19,767
+R3-CODE-20261013,direct_validation/drivers/current_07.p2dat,new current-vector direct check,Table 9; Tables S16-S19,768
+R3-CODE-20261013,direct_validation/drivers/current_08.p2dat,new current-vector direct check,Table 9; Tables S16-S19,772
+R3-CODE-20261013,direct_validation/drivers/current_09.p2dat,new current-vector direct check,Table 9; Tables S16-S19,770
+R3-CODE-20261013,direct_validation/drivers/current_10.p2dat,new current-vector direct check,Table 9; Tables S16-S19,766
+R3-CODE-20261013,direct_validation/drivers/current_11.p2dat,new current-vector direct check,Table 9; Tables S16-S19,768
+R3-CODE-20261013,direct_validation/drivers/current_12.p2dat,new current-vector direct check,Table 9; Tables S16-S19,772
+R3-CODE-20261013,direct_validation/model_files/3-bonded.p2dat,new current-vector direct check,Table 9; Tables S16-S19,1139
+R3-CODE-20261013,direct_validation/model_files/44-ucs.p2dat,new current-vector direct check,Table 9; Tables S16-S19,1896
+R3-CODE-20261013,direct_validation/model_files/fracture.fis,new current-vector direct check,Table 9; Tables S16-S19,3754
+R3-CODE-20261013,direct_validation/model_files/representative_candidates_nsgaIII.csv,new current-vector direct check,Table 9; Tables S16-S19,3819
+R3-CODE-20261013,direct_validation/model_files/yuya.p2sav,new current-vector direct check,Table 9; Tables S16-S19,9980220
+R3-CODE-20261013,direct_validation/generation_sources/1-make_sample.p2dat,new current-vector direct check,Table 9; Tables S16-S19,930
+R3-CODE-20261013,direct_validation/generation_sources/2-yuya.p2dat,new current-vector direct check,Table 9; Tables S16-S19,2606
+R3-CODE-20261013,direct_validation/joint_responses.json,new current-vector direct check,Table 9; Tables S16-S19,29405
+R3-CODE-20261013,direct_validation/manifest.json,new current-vector direct check,Table 9; Tables S16-S19,12850
+R3-CODE-20261013,direct_validation/recorded_histories/current_01/history.his,new current-vector direct check,Table 9; Tables S16-S19,6064704
+R3-CODE-20261013,direct_validation/recorded_histories/current_02/history.his,new current-vector direct check,Table 9; Tables S16-S19,2413056
+R3-CODE-20261013,direct_validation/recorded_histories/current_03/history.his,new current-vector direct check,Table 9; Tables S16-S19,2687040
+R3-CODE-20261013,direct_validation/recorded_histories/current_04/history.his,new current-vector direct check,Table 9; Tables S16-S19,2925120
+R3-CODE-20261013,direct_validation/recorded_histories/current_05/history.his,new current-vector direct check,Table 9; Tables S16-S19,5158080
+R3-CODE-20261013,direct_validation/recorded_histories/current_06/history.his,new current-vector direct check,Table 9; Tables S16-S19,3473472
+R3-CODE-20261013,direct_validation/recorded_histories/current_07/history.his,new current-vector direct check,Table 9; Tables S16-S19,3982464
+R3-CODE-20261013,direct_validation/recorded_histories/current_08/history.his,new current-vector direct check,Table 9; Tables S16-S19,4732992
+R3-CODE-20261013,direct_validation/recorded_histories/current_09/history.his,new current-vector direct check,Table 9; Tables S16-S19,3601152
+R3-CODE-20261013,direct_validation/recorded_histories/current_10/history.his,new current-vector direct check,Table 9; Tables S16-S19,2899008
+R3-CODE-20261013,direct_validation/recorded_histories/current_11/history.his,new current-vector direct check,Table 9; Tables S16-S19,4128384
+R3-CODE-20261013,direct_validation/recorded_histories/current_12/history.his,new current-vector direct check,Table 9; Tables S16-S19,2497536
+R3-CODE-20261013,direct_validation/REPRODUCE.md,Reproduction instructions,Table 9; Tables S16-S19,5692
+R3-CODE-20261013,direct_validation/target_gpr_pfc_comparison.csv,new current-vector direct check,Table 9; Tables S16-S19,6305
+R3-CODE-20261013,direct_validation/validation.py,new current-vector direct check,Table 9; Tables S16-S19,5832
+R3-CODE-20261013,final_tables/recompute_historical_errors.py,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1493
+R3-CODE-20261013,final_tables/table9_historical_direct_pfc.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1997
+R3-CODE-20261013,final_tables/tableS15_approx_component_errors.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,2169
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/code/run_inverse_baseline_analysis.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,6898
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/code/run_sample_size_sensitivity.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,7059
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/code/run_surrogate_model_audit.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11318
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/inverse_prediction/inverse_baseline_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11417
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/inverse_prediction/inverse_baseline_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1818
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/sample_size/sample_size_repeated_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,15144
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/sample_size/sample_size_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,4498
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/forward_prediction/kernel_selection_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,6696
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/forward_prediction/selected_kernel_by_repeat.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,245
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/forward_prediction/surrogate_repeated_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,5770
+R3-CODE-20261013,surrogate_analysis/model_diagnostics/results/forward_prediction/surrogate_repeated_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1510
+R3-CODE-20261013,surrogate_analysis/modeling_code/analyze_decision_space_nonuniqueness.py,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,9038
+R3-CODE-20261013,surrogate_analysis/modeling_code/build_round2_forward_check_figure.py,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,6618
+R3-CODE-20261013,surrogate_analysis/modeling_code/export_round2_representative_candidates.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,4772
+R3-CODE-20261013,surrogate_analysis/modeling_code/reproduce_grey_relational_analysis.py,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3725
+R3-CODE-20261013,surrogate_analysis/modeling_code/run_round2_forward_check.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3792
+R3-CODE-20261013,surrogate_analysis/modeling_code/run_round2_nsga_comparison.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,23248
+R3-CODE-20261013,surrogate_analysis/modeling_code/run_round2_surrogate_refit.m,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12458
+R3-CODE-20261013,surrogate_analysis/input_data/3125.xlsx,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,120471
+R3-CODE-20261013,surrogate_analysis/input_data/3125_full_factorial_dataset.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,102633
+R3-CODE-20261013,surrogate_analysis/input_data/forward_check_7_in_domain.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,395
+R3-CODE-20261013,surrogate_analysis/input_data/targets_12.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,371
+R3-CODE-20261013,surrogate_analysis/trained_models/round2_production_models.mat,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,31903851
+R3-CODE-20261013,surrogate_analysis/modeling_results/forward_check/forward_check_metrics.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,411
+R3-CODE-20261013,surrogate_analysis/modeling_results/forward_check/forward_check_predictions.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1596
+R3-CODE-20261013,surrogate_analysis/modeling_results/grey_relational/fig05_grey_relational_degrees_long.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1007
+R3-CODE-20261013,surrogate_analysis/modeling_results/grey_relational/fig05_grey_relational_matrix_reproduced.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,466
+R3-CODE-20261013,surrogate_analysis/modeling_results/grey_relational/fig05_reproduction_difference.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,169
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/best_compromise_solution_by_run.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,25740
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/decision_variable_constraint_ranking.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,641
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/input_manifest.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,4571
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/near_equivalent_counts.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,699
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/near_equivalent_counts_by_run.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,7768
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/near_equivalent_parameter_spearman.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,6726
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/near_equivalent_parameter_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,10743
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/near_equivalent_solutions.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,948997
+R3-CODE-20261013,surrogate_analysis/modeling_results/nonuniqueness/run_population_inventory.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,5733
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/nsga_comparison_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,58598
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/nsga_comparison_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3267
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12774
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12697
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12722
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12767
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12724
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12772
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12604
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12704
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12761
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12739
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13062
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13013
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13087
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13154
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12970
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13054
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11948
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12933
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12962
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample01_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13075
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12600
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11996
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12665
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12689
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12460
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12576
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12581
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12738
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12407
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12722
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12773
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12767
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12736
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12745
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12844
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12892
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12984
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12772
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12961
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample02_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12888
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12843
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12673
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12730
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12586
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12694
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12592
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12678
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12790
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12805
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12784
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13095
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12831
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12762
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13060
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13052
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12875
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11043
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13113
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13050
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample03_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12994
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12635
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12685
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12700
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12741
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12618
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12691
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12797
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12632
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12685
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12771
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13015
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13063
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13033
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13020
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13031
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12977
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12576
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12976
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12907
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample04_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13141
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12901
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12291
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12759
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12663
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12693
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12637
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12623
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12597
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12627
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12717
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12590
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12935
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12725
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12900
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12822
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13025
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,6308
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12897
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13008
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample05_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12999
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12695
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12659
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12754
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12695
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12759
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12766
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12634
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12505
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12619
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12700
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12823
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12857
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12809
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12869
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12836
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12845
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12877
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12851
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12807
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample06_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12918
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13399
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13459
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13453
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13404
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13408
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13333
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13468
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13395
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13400
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13547
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13726
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13707
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,10047
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13641
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13627
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12870
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13569
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13799
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13562
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample07_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11381
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14260
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14402
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14259
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14242
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14243
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14193
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14189
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14180
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14253
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14334
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14645
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14350
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14600
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14404
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13108
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14376
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14506
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14351
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14434
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample08_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14439
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12616
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12598
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12585
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12692
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12720
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12635
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12443
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12461
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12589
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12513
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12790
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12795
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12765
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12787
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12880
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12780
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12846
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12954
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12797
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample09_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12909
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12610
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12397
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12569
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12668
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12491
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12689
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12643
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12432
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12698
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12658
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12375
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12352
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12803
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12836
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12682
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12888
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12832
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12915
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12805
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample10_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12938
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12507
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12495
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12484
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12581
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12510
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12595
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12529
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12489
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12631
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12650
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12812
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12855
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12906
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12922
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12791
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12823
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12854
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12768
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12722
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample11_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12754
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12472
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12563
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12470
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12417
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12551
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12545
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12610
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12507
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12548
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12618
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run01.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12809
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run02.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12833
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run03.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12858
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run04.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12772
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run05.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12705
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run06.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12905
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run07.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12942
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run08.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12716
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run09.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12815
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/pareto_sample12_NSGAIII_run10.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,12665
+R3-CODE-20261013,surrogate_analysis/modeling_results/optimizer/representative_candidates_nsgaIII.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3819
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/kernel_validation_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,20868
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/kernel_validation_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,4622
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/nested_selected_kernel_test_runs.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3554
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/nested_selected_kernel_test_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1022
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/production_kernel_selection.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,385
+R3-CODE-20261013,surrogate_analysis/modeling_results/surrogate_refit/production_training_fit_metrics.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,646
+R3-CODE-20261013,surrogate_analysis/analysis_code/reanalyze_round3.py,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,11954
+R3-CODE-20261013,surrogate_analysis/analysis_results/analysis_summary.json,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,718
+R3-CODE-20261013,surrogate_analysis/analysis_results/candidate_component_error_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14470
+R3-CODE-20261013,surrogate_analysis/analysis_results/candidate_counts_by_target.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3267
+R3-CODE-20261013,surrogate_analysis/analysis_results/dispersion_by_target.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,13454
+R3-CODE-20261013,surrogate_analysis/analysis_results/dispersion_sensitivity.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1540
+R3-CODE-20261013,surrogate_analysis/analysis_results/fig7_learning_curve_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3840
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/Fig06_inverse_diagnostic.png,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,148441
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/Fig06_inverse_diagnostic.svg,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,18183
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/Fig07_archived_fixed_test_learning_curve.png,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,476482
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/Fig07_archived_fixed_test_learning_curve.svg,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,52996
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/FigS01_optimizer_and_target_conditioned_dispersion.png,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,699312
+R3-CODE-20261013,surrogate_analysis/analysis_results/figures/FigS01_optimizer_and_target_conditioned_dispersion.svg,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,140443
+R3-CODE-20261013,surrogate_analysis/analysis_results/inverse_run_metrics_with_mse.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,14000
+R3-CODE-20261013,surrogate_analysis/analysis_results/retained_occurrences_delta005.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,689959
+R3-CODE-20261013,surrogate_analysis/analysis_results/retained_run_counts_delta005.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,719
+R3-CODE-20261013,surrogate_analysis/analysis_results/retained_unique_candidates_delta005.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,828894
+R3-CODE-20261013,surrogate_analysis/analysis_results/run_best_errors.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,3220
+R3-CODE-20261013,surrogate_analysis/analysis_results/table6_inverse_summary.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1956
+R3-CODE-20261013,surrogate_analysis/analysis_results/target_workbook_provenance.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,8627
+R3-CODE-20261013,surrogate_analysis/target_source_records/historical_table9_direct_pfc_12_cases.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,2450
+R3-CODE-20261013,surrogate_analysis/target_source_records/historical_vs_R2_parameter_vectors.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,1796
+R3-CODE-20261013,surrogate_analysis/target_source_records/old_inverse_case1/P_1.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,583777
+R3-CODE-20261013,surrogate_analysis/target_source_records/target1_curves/E_g71.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,685726
+R3-CODE-20261013,surrogate_analysis/target_source_records/target1_curves/P_g71.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,566465
+R3-CODE-20261013,surrogate_analysis/target_source_records/target1_curves/V_g71.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,744690
+R3-CODE-20261013,surrogate_analysis/target_source_records/target_workbook_provenance.csv,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,8627
+R3-CODE-20261013,surrogate_analysis/target_source_records/workbook/12组参数标定模拟数据.xlsx,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,18502
+R3-CODE-20261013,historical_replay/original_end_state_comparison_8.csv,historical replay only,historical records,496
+R3-CODE-20261013,historical_replay/response_comparison_12.csv,historical replay only,historical records,5125
+R3-CODE-20261013,historical_replay/summary.json,historical replay only,historical records,1985
+R3-CODE-20261013,requirements.txt,Archived analysis data and code,Tables S1-S15; archived production models and benchmark outputs,180

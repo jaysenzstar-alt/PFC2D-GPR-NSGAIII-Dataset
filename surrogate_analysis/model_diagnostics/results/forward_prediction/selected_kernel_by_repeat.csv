@@ -1,0 +1,6 @@
+﻿repeat,seed,selected_kernel,n_train,n_validation,n_test
+1,20260711,ardmatern52,2187,313,625
+2,20260712,ardmatern32,2187,313,625
+3,20260713,ardmatern32,2187,313,625
+4,20260714,ardmatern32,2187,313,625
+5,20260715,ardmatern32,2187,313,625

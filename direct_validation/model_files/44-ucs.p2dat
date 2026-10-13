@@ -1,0 +1,70 @@
+;res parallel_bonded
+set mech age 0
+ball attribute displacement multiply 0.0
+
+set echo off
+call fracture.fis
+;call look_AE_2D.dat
+set echo on
+ball attribute damp 0.3
+;ball group 'specimen'
+measure delete
+measure create position 0.0, 0.0 radius [0.5*wlx] id 2
+def setup_wall
+  global wp_up   = wall.find(1)
+  global wp_down = wall.find(2)
+  global sample_height = wly
+  global sample_width  = wlx
+end
+@setup_wall
+
+wall attribute yvelocity   1e-2 range id 2
+wall attribute yvelocity  -1e-2 range id 1
+
+def stress_yy
+    local force1 = -wall.force.contact.y(wp_up)
+    local force2 =  wall.force.contact.y(wp_down)
+    stress_yy = 1e-6*math.abs(0.5*(force1+force2)/wlx)
+end
+def strain_yy
+    sample_height_now = wall.pos.y(wp_up) - wall.pos.y(wp_down)
+    strain_yy = (sample_height-sample_height_now)/sample_height
+end
+def compute_poisson
+    global mp = measure.find(2)
+    global msrate_xx = measure.strainrate.xx(mp)
+    global msrate_yy = measure.strainrate.yy(mp)
+    global mstrain_xx = mstrain_xx + msrate_xx*global.timestep
+    global mstrain_yy = mstrain_yy + msrate_yy*global.timestep
+    if strain_yy#0
+       poisson = math.abs(mstrain_xx/mstrain_yy)
+    endif
+end
+set fish callback 1.1 @compute_poisson
+def modulus
+    if mstrain_yy#0
+       modulus = math.abs(0.001*stress_yy/strain_yy)
+    endif
+end
+history id 11 @stress_yy
+history id 12 @strain_yy
+history id 13 @poisson
+history id 14 @modulus
+
+@track_init
+;@AE_init
+history id 15 @crack_num
+;history id 16 @hit_num
+def loadhalt_wall
+    loadhalt_wall = 0
+    local abs_stress = math.abs(stress_yy)
+    local abs_strain = math.abs(strain_yy)
+    global peak_stress = math.max(abs_stress,peak_stress)
+    
+    if abs_stress < peak_stress*peak_fraction
+       loadhalt_wall = 1
+    endif
+end
+SET @peak_fraction = 0.1
+solve fishhalt @loadhalt_wall
+list @peak_stress

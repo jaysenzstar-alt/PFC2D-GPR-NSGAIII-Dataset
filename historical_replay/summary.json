@@ -1,0 +1,78 @@
+{
+  "stress": {
+    "vs_target_error_pct": {
+      "mean": 4.537239075103507,
+      "median": 4.3948922573645515,
+      "maximum": 9.416671364962639,
+      "maximum_sample": 9
+    },
+    "vs_old_displayed_error_pct": {
+      "mean": 0.6128196797618074,
+      "median": 0.5327660402099718,
+      "maximum": 1.156964302090623,
+      "maximum_sample": 12
+    }
+  },
+  "strain": {
+    "vs_target_error_pct": {
+      "mean": 4.675741958043915,
+      "median": 4.132267372347927,
+      "maximum": 11.0407850676587,
+      "maximum_sample": 9
+    },
+    "vs_old_displayed_error_pct": {
+      "mean": 0.32652899438262906,
+      "median": 0.28897423544089945,
+      "maximum": 0.8599518354367579,
+      "maximum_sample": 2
+    }
+  },
+  "E50_diagnostic": {
+    "vs_target_error_pct": {
+      "mean": 1.5735902051546442,
+      "median": 1.2166157151288253,
+      "maximum": 4.265499792099962,
+      "maximum_sample": 9
+    },
+    "vs_old_displayed_error_pct": {
+      "mean": 1.4727161144472498,
+      "median": 1.1242228637589904,
+      "maximum": 4.234582802348541,
+      "maximum_sample": 3
+    }
+  },
+  "nu50_diagnostic": {
+    "vs_target_error_pct": {
+      "mean": 5.689179140832068,
+      "median": 5.642656997457037,
+      "maximum": 14.48295820406518,
+      "maximum_sample": 12
+    },
+    "vs_old_displayed_error_pct": {
+      "mean": 6.700582070127014,
+      "median": 6.078110287334155,
+      "maximum": 14.48295820406518,
+      "maximum_sample": 12
+    }
+  },
+  "original_end_state_matches": {
+    "samples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "count": 8,
+    "all_four_extracted_values_equal": true
+  },
+  "MARE50_diagnostic_pct": {
+    "mean": 4.118937594783533,
+    "maximum": 7.825338931470653,
+    "maximum_sample": 9
+  },
+  "scope": "Historical parameter vectors; E/nu use the 50%-peak diagnostic readout, not a confirmed historical sampling rule."
+}

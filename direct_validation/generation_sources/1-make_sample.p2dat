@@ -1,0 +1,30 @@
+new
+
+; Set the domain extent
+domain extent -0.05 0.05 -0.1 0.1 condition destroy
+
+cmat default model linear method deform emod 1.0e9 kratio 0.0 
+cmat default property dp_nratio 0.5 
+
+; create walls that extend past the edges of the sample
+wall create vertices -0.04, 0.05 0.04, 0.05 id 1
+wall create vertices -0.04,-0.05 0.04,-0.05 id 2
+wall create vertices -0.025,-0.06 -0.025,0.06 id 3
+wall create vertices  0.025,-0.06 0.025,0.06 id 4
+[r_min = 0.35e-3]
+set random 10003
+ball distribute porosity 0.08 radius [r_min] [r_min*1.66] box -0.025 0.025 -0.05 0.05
+ball attribute density 2650 damp 0.7
+ball property fric 0.5
+; Calm the system
+cycle 1000 calm 10
+; Solve the system to a target limit (here the average force ratio)
+; Use density scaling to quickly reach equilibrium
+set timestep scale
+solve aratio 1e-4
+set timestep auto
+calm
+
+measure create position 0.0, 0.0 radius 0.025 id 1
+
+save unbonded

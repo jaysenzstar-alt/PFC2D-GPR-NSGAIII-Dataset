@@ -1,0 +1,7 @@
+numpy==2.3.5
+pandas==3.0.1
+matplotlib==3.10.7
+Pillow>=11
+
+# Tested reanalysis runtime: Python 3.12.14 on Windows.
+# MATLAB/PFC software is not installed by this requirements file.

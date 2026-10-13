@@ -1,0 +1,97 @@
+restore unbonded
+
+def compute_gain(fac)
+    compute_vessel_dimensions
+    global gx = 0.0
+    global gy = 0.0
+    loop foreach contact wall.contactmap(wall.find(1))
+        gy = gy + contact.prop(contact,"kn")
+    endloop
+    loop foreach contact wall.contactmap(wall.find(2))
+        gy = gy + contact.prop(contact,"kn")
+    endloop
+    loop foreach contact wall.contactmap(wall.find(3))
+        gx = gx + contact.prop(contact,"kn")
+    endloop
+    loop foreach contact wall.contactmap(wall.find(4))
+        gx = gx + contact.prop(contact,"kn")
+    endloop
+    gx1 = gx
+    if gx1 < 1.0e9 then
+       gx1 = 1.0e9
+    endif
+    gy1 = gy
+    if gy1 < 1.0e9 then
+       gy1 = 1.0e9
+    endif    
+  gx = fac*2.0 * wly / (gx1 * global.timestep)
+  gy = fac*2.0 * wlx / (gy1 * global.timestep)
+end
+
+def compute_vessel_dimensions
+    wlx = wall.pos.x(wall.find(4)) - wall.pos.x(wall.find(3))
+    wly = wall.pos.y(wall.find(1)) - wall.pos.y(wall.find(2))
+    wlyshang=wall.pos.y(wall.find(1))
+    wlyxia=wall.pos.y(wall.find(2))
+end
+[max_vel = 10.0]
+def servo_walls
+    compute_walls_stress
+    if do_xservo = true then
+       xvel = gx * (wsxx - txx)
+       xvel = math.sgn(xvel) * math.min(max_vel,math.abs(xvel))
+       wall.vel.x(wall.find(3)) = xvel
+       wall.vel.x(wall.find(4)) = - xvel
+    endif
+    if do_yservo = true then
+       yvel = gy * (wsyy - tyy)
+       yvel = math.sgn(yvel) * math.min(max_vel,math.abs(yvel))
+       wall.vel.y(wall.find(2)) =   yvel
+       wall.vel.y(wall.find(1)) = - yvel
+    endif
+end
+
+def compute_walls_stress
+    compute_vessel_dimensions
+    wsyy = 0.5*(wall.force.contact.y(wall.find(2)) - wall.force.contact.y(wall.find(1)))/wlx
+    wsxx = 0.5*(wall.force.contact.x(wall.find(3)) - wall.force.contact.x(wall.find(4)))/wly
+end
+
+[txx = -1e6]
+[tyy = -1e6]
+[do_xservo=true]
+[do_yservo=true]
+set fish callback  1.0 @servo_walls
+history id 1 @wsxx
+history id 2 @wsyy
+[stop_me = 0]
+[tol = 5.0e-3]
+[gain_cnt = 0]
+[gain_update_freq = 10]
+[gain_safety_fac = 0.1]
+
+def stop_me
+    gain_cnt = gain_cnt + 1
+    if gain_cnt >= gain_update_freq then
+       compute_gain(gain_safety_fac)
+       gain_cnt = 0
+    endif
+    if do_yservo = true then
+       if math.abs((wsyy - tyy)/tyy) > tol
+          exit
+       endif
+    endif
+    if do_xservo = true then
+       if math.abs((wsxx - txx)/txx) > tol
+          exit
+       endif
+    endif
+    ara = 1.0*mech.solve("aratio")
+    if mech.solve("aratio")>1e-5 then
+       exit
+    endif
+    stop_me = 1
+end
+solve fishhalt @stop_me
+
+save yuya
